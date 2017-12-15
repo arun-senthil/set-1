@@ -2,16 +2,17 @@
 
 int main(void)
 {
-	int number;
-	printf("\nEnter any number :\n");
-	scanf("%d",&number);
-	if(number%2==0)
+	char c;
+	printf("enter any character :\n");
+	scanf("%c",&c);
+	if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
 	{
-		printf("\nEven");
+		printf("\nvowel");
+		
 	}
-	if(number%2 !=0)
+	else
 	{
-		printf("\nOdd");
+		printf("\nconsonant");
 	}
-
+	
 }
