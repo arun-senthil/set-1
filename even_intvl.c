@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	//code
-	int n,a,b,i;
+	int a,b,i;
 	printf("enter the intevals : ");
 	scanf("%d %d",&a,&b);
 	for(i=a;i<b;i++)
