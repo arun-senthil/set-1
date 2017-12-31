@@ -2,20 +2,20 @@
 
 int main() {
 	//code
-	int min,mins,seconds;
+	int min,mins,hours;
 	printf("Enter the time in minutes :");
 	scanf("%d",&min);
-	if(min<=60)
+	if(min<60)
 	{
 	    mins=min;
-	    seconds=0;
+	    hours=0;
 	}
 	else{
-	    mins=60;
-	    seconds=min%60;
+	    mins=min%60;
+	    hours=min / 60;
 	    
 	}
-	printf("\nminutes : %d\nseconds : %d",mins,seconds);
+	printf("\nhour(s) : %d\nminutes : %d",hours,mins);
 	
 	return 0;
 }
